@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="pt-16 pb-15 bg-gray-200">
+    <div id="contact" className="pt-16 pb-15 bg-gray-200">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-[90%] lg:w-[80%] items-center mx-auto mt-16">
         {/* Contact Form */}
         <div

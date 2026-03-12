@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import React from "react";
 import Tilt from "react-parallax-tilt";
@@ -15,7 +13,7 @@ const PROJECT_IMAGES = [
 
 const Project = () => {
   return (
-    <div className="pt-16 pb-16 bg-black">
+    <div id="portfolio" className="pt-16 pb-16 bg-black">
       <h2 className="text-[#b69974] text-lg text-center font-medium tracking-widest">
         Portfolio
       </h2>

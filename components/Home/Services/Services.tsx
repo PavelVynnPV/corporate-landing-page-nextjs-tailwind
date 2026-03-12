@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="pt-20 pb-20 relative">
+    <div id="services" className="pt-20 pb-20 relative">
       {/* side image pattern */}
       <Image
         src="/images/service_bg.png"
